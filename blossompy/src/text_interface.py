@@ -264,7 +264,7 @@ class CLI():
         data = {"animation":new_sequence, "frame_list": all_pos}
         json_str = json.dumps(data, indent=4)
         print(json_str)
-        target_path = './src/sequences/woody/'
+        target_path = './blossompy/src/sequences/woody/'
         if not os.path.exists(target_path):
             try:
                os.makedirs(target_path)
