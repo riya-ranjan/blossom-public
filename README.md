@@ -3,6 +3,8 @@
 This python package includes all the basics necessary to run your
 Blossom robot to make it perform various gestures and sequences.
 
+**Version 1.0.0** - [Change log](CHANGELOG.md)
+
 ## About Blossom
 
 Blossom is an open-hardware, open-source tensile robot that you can handcraft and accessorize to your liking. You can read more about the project in [Evan Ackerman's IEEE Spectrum article](https://spectrum.ieee.org/automaton/robotics/home-robots/blossom-a-creative-handmade-approach-to-social-robotics-from-cornell-and-google).
@@ -13,6 +15,20 @@ Here are two examples of Blossom robots:
 
 <img src="http://guyhoffman.com/wp-content/uploads/2017/08/blossom-bunny-corner-e1502812175733-300x189.jpg" width="300">
 <img src="http://guyhoffman.com/wp-content/uploads/2017/08/blossom-jellyfish-768x606.jpg" width="300" >
+
+## Install Blossompy
+
+Currently, blossompy is fully available for Mac (OS X) and Linux. We are currently developing an
+implementation for Windows. 
+
+To install, run:
+```
+pip install blossompy
+```
+Alternatively, you may have to run:
+```
+pip3 install blossompy
+```
 
 ## Setup Software Dependencies
 
